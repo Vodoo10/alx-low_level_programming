@@ -4,14 +4,15 @@
   *
   * Return: Always 0 (success)
   */
-
 int main(void)
 {
-	char a;
-	while (a <= 'z')
+	char c;
+	c = 'a';
+	while
+		(c <= 'z')
 	{
-		putchar(a);
-		a++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
